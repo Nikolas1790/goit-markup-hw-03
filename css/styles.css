@@ -352,9 +352,9 @@ body {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-/* .works-li {
-  width: calc((100%-48px) / 3);
-} */
+.works-li {
+  max-width: calc((100%-48px) / 3);
+}
 
 .works-link {
   height: 500px;
